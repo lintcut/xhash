@@ -1,5 +1,26 @@
-# Prerequisites
-*.d
+# Add any directories, files, or patterns you don't want to be tracked by version control
+
+# Build output directories
+build.msvc/
+build.apple/
+build.macos/
+build.ios/
+build.android/
+build.linux/
+output/
+
+# VS config dirs
+.vs/
+.vscode/
+ipch/
+
+# XCode dirs
+xcuserdata/
+*.xcuserdatad/
+*.xcuserstate
+
+# binary file
+*.bin
 
 # Compiled Object files
 *.slo
@@ -12,13 +33,12 @@
 *.pch
 
 # Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+#*.so
+#*.dylib
+#*.dll
 
 # Fortran module files
 *.mod
-*.smod
 
 # Compiled Static libraries
 *.lai
@@ -30,3 +50,17 @@
 *.exe
 *.out
 *.app
+
+# Visual Studio Project Temp Files
+*.user
+*.opensdf
+*.sdf
+*.suo
+*.pdb
+*.vc.db
+*.vc.opendb
+*.aps
+sources/SDWL/RMCAPITest/output/
+sources/SDWL/SDWRmcLib/output/
+
+external/
