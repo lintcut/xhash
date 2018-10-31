@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libxhashcpp", "src\libxhash
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "xhash_test_run", "src\xhash_test_run\xhash_test_run.vcxproj", "{99D40F3C-828C-401F-A019-DF0BC3D66D57}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "xexportdump", "src\xexportdump\xexportdump.vcxproj", "{5698AD79-DD08-41D3-A8A1-1F070DE18F02}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -51,6 +53,14 @@ Global
 		{99D40F3C-828C-401F-A019-DF0BC3D66D57}.Release|x64.Build.0 = Release|x64
 		{99D40F3C-828C-401F-A019-DF0BC3D66D57}.Release|x86.ActiveCfg = Release|Win32
 		{99D40F3C-828C-401F-A019-DF0BC3D66D57}.Release|x86.Build.0 = Release|Win32
+		{5698AD79-DD08-41D3-A8A1-1F070DE18F02}.Debug|x64.ActiveCfg = Debug|x64
+		{5698AD79-DD08-41D3-A8A1-1F070DE18F02}.Debug|x64.Build.0 = Debug|x64
+		{5698AD79-DD08-41D3-A8A1-1F070DE18F02}.Debug|x86.ActiveCfg = Debug|Win32
+		{5698AD79-DD08-41D3-A8A1-1F070DE18F02}.Debug|x86.Build.0 = Debug|Win32
+		{5698AD79-DD08-41D3-A8A1-1F070DE18F02}.Release|x64.ActiveCfg = Release|x64
+		{5698AD79-DD08-41D3-A8A1-1F070DE18F02}.Release|x64.Build.0 = Release|x64
+		{5698AD79-DD08-41D3-A8A1-1F070DE18F02}.Release|x86.ActiveCfg = Release|Win32
+		{5698AD79-DD08-41D3-A8A1-1F070DE18F02}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
